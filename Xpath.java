@@ -12,6 +12,7 @@ public class Xpath {
 	@BeforeTest
 	public void OpenBrowser() {
 		driver=new FirefoxDriver();
+		driver.manage().window().maximize();
 				
 	}
 	@Test
