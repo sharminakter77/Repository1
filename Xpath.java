@@ -27,7 +27,7 @@ public class Xpath {
 	}
 	@AfterTest
 	public void CloseBrowser() {
-		driver.close();
+		driver.close{};
 	}
 	
 
