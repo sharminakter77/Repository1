@@ -47,7 +47,7 @@ WebDriver driver;
 		monthSelect.selectByVisibleText("Jun");
 		
         Select daySelect =new Select(driver.findElement(By.xpath("//*[starts-with(@name,'{{name.Dname')]")));
-        daySelect.selectByVisibleText("Fri"); 
+        daySelect.selectByVisibleText("Friday"); 
 		
 	}
 	@AfterTest
